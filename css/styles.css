@@ -1,0 +1,21 @@
+:root {
+    --breakpoint-sm: 768px;
+    --breakpoint-md: 992px; 
+    --breakpoint-lg: 1200px;
+
+    --color-grey-med: #8d8d8d;
+    --nav-border-color: var(--color-grey-med);
+    --nav-border-weight: 2px;
+}
+
+
+nav {
+    border-bottom: var(--nav-border-weight) solid var(--nav-border-color)
+}
+
+
+@media (min-width: 992px) {
+    nav ul.nav-menu li {
+        display: inline-block;
+    }
+}
